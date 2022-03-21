@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*box-sizing Incluye el
+    relleno y el borde en 
+    el acho y alto TOTAL
+    
+    border-box: Mantendra 
+    el tamaño de elemento 
+    dado. 
+    */
+}
+
+#bg_home {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    /* position: absolute
+    no estara en el flujo
+    de la paguina, requiere
+    posiciones como top, left
+    ,rigth, bottom y la posicion
+    del padre o antepasado.
+    */
+    width: 100%; height: 100%;
+    background: black;
+    /* Es una funcion que crea una imagen 
+    de transicion progresiva*/
+}
