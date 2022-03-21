@@ -12,9 +12,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
 }
 /*PRE LOAD PAGE-------------------------*/
 .load-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -55,7 +59,7 @@ div div span{
 .h6{left:0;
 animation: load6 7.2s ease 3s infinite;
 }
-  
+
 @keyframes load1 {
     0%{bottom:0;height:0}
     6.944444444%{bottom:0;height:100%}
@@ -132,4 +136,24 @@ animation: load6 7.2s ease 3s infinite;
 .list-inline li:hover {
     list-style-type: square;;
     list-style-position: inside;
+}
+
+/*FOOTER------------------------------------------------*/
+footer {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;  
+    align-items: center;
+}
+.hr-line-left{
+    width: 50%;
+    border-top: 2px solid orange;
+}
+.hr-line-right{
+    width: 50%;
+    border-bottom: 2px solid orange;
+}
+.footer-container-logo{
+    height: 50px;
 }

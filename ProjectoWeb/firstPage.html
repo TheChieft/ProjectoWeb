@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Name Web</title>
 </head>
 <body>
@@ -30,15 +31,22 @@
             </div>
         </div>
     </div>
-    <div tag = "text-load--firstPage" style = "display: none">
+    <div tag = "text-load--firstPage" >
         <h1 class = "title-text">NAME WEB</h1>
         <ul class = "list-inline">
-            <a href = ""><li>Sing in</li></a>
-            <a href = ""><li>Register</li></a>
+            <a href = "games.html"><li>Sing in</li></a>
+            <a href = "games.html"><li>Register</li></a>
         </ul>
     </div>
+    <script>
+        $(window).on("load",function(){
+            $(".load-container").fadeOut("fast");
+        });
+    </script>
     <footer tag = "footer-container-firstPage">
-
+        <span class = "hr-line-left"></span>
+        <img class = "footer-container-logo" src = "img/logo.svg">
+        <span class = "hr-line-right"></span>
     </footer>
 </body>
 </html>
