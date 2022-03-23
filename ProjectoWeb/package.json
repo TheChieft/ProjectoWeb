@@ -1,0 +1,15 @@
+{
+  "name": "CYR Games",
+  "version": "1.0.0",
+  "description": "proyecto de desarrollo web",
+  "author": "Andres Yañez, Nicolas Rogers, Juan Casanova",
+  "license": "ISC",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies": {
+    "mongodb": "^4.4.1"
+  }
+}
